@@ -50,36 +50,6 @@ class WebServiceClass {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     func get(_ requestUrl: String?, parameters: NSDictionary?, completion: @escaping (_ result: NSDictionary?, _ error: Error?) -> Void) {
         // fetch the data
         var urlRequest = URLRequest(url: URL(string:requestUrl!)!)
